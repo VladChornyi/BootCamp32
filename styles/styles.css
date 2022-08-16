@@ -1,0 +1,15 @@
+:root {
+  /* основний колір фону */
+  --main-bcg: #ffffff;
+  /* вторинний колір фону */
+  --secondary-bcg: #f6f6f8;
+  /* основний колір тексту */
+  --main-text-color: #999999;
+  /* колір заголовків */
+  --title-color: #323232;
+  --sub-title-color: #000000;
+  /* колір фону кнопки */
+  --button-bcg: #4985ff;
+  /* колір тексту кнопки */
+  --button-text-color: #ffffff;
+}
