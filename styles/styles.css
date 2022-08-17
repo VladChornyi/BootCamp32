@@ -60,9 +60,11 @@ img {
 }
 
 .container {
-  max-width: 1110px;
+  max-width: 1140px;
   width: 100%;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /*HEADER*/
@@ -85,4 +87,13 @@ img {
 .site-nav-list {
   display: flex;
   justify-content: space-between;
+}
+
+.hero {
+  padding-top: 319px;
+  padding-bottom: 335px;
+}
+.services {
+  padding-top: 110px;
+  padding-bottom: 105px;
 }
