@@ -63,8 +63,8 @@ img {
 }
 
 .container {
-  max-width: 1140px;
-  width: 100%;
+  max-width: 100%;
+  width: 1140px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -273,4 +273,49 @@ img {
 
 .ikon-envelope {
   fill: var(--accent-color);
+}
+/* about */
+
+.about{
+  padding-top: 100px;
+  padding-bottom: 70px;
+  background-color: var(--secondary-bcg);
+}
+
+.about-title{
+  max-width:  424px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height:1.5;
+  color: var(--title-color);
+  margin-bottom: 60px;
+ 
+}
+
+.about-box{
+  padding-top: 52px;
+}
+
+.about-text{
+  max-width: 489px;
+  margin-bottom: 42px;
+}
+
+.about-link{
+  font-weight: 500;
+font-size: 16px;
+line-height: 1.25;
+text-decoration-line: underline;
+color: var(--accent-color);
+
+}
+
+.about-wrap{
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-list{
+  display: flex;
+  justify-content: space-between;
 }
