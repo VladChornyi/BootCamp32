@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   /* основний колір фону */
   --main-bcg: #ffffff;
@@ -12,7 +13,6 @@
   --button-bcg: #4985ff;
   /* колір тексту кнопки */
   --button-text-color: #ffffff;
-
   --accent-color: #4985ff;
 }
 
@@ -30,7 +30,6 @@ html {
 body {
   background-color: var(--main-bgc);
   color: var(--main-text-color);
-
   font-family: Montserrat, sans-serif;
 }
 
@@ -97,6 +96,7 @@ img {
   transition: background-color 350ms ease-out;
   cursor: pointer;
 }
+
 .up-icon {
   fill: #ffffff;
 }
@@ -105,8 +105,6 @@ img {
 .up-link:focus {
   background-color: #4985ff;
 }
-
-/*HEADER*/
 
 .header {
   background-color: rgba(128, 128, 128, 0.29);
@@ -148,7 +146,7 @@ img {
 }
 
 .current::after {
-  content: '';
+  content: "";
   height: 2px;
   width: 100%;
   background-color: #ffffff;
@@ -158,13 +156,11 @@ img {
   left: 0;
 }
 
-/* hero */
-
 .hero {
   height: 100vh;
   padding-top: 319px;
   padding-bottom: 335px;
-  background-image: url('../image/main-img.jpg');
+  background-image: url("../image/main-img.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -195,8 +191,6 @@ img {
   margin-right: auto;
   margin-top: 20px;
 }
-
-/* services */
 
 .services {
   padding-top: 110px;
@@ -274,48 +268,45 @@ img {
 .ikon-envelope {
   fill: var(--accent-color);
 }
-/* about */
 
-.about{
+.about {
   padding-top: 100px;
   padding-bottom: 70px;
   background-color: var(--secondary-bcg);
 }
 
-.about-title{
-  max-width:  424px;
+.about-title {
+  max-width: 424px;
   font-weight: 700;
   font-size: 36px;
-  line-height:1.5;
+  line-height: 1.5;
   color: var(--title-color);
   margin-bottom: 60px;
- 
 }
 
-.about-box{
+.about-box {
   padding-top: 52px;
 }
 
-.about-text{
+.about-text {
   max-width: 489px;
   margin-bottom: 42px;
 }
 
-.about-link{
+.about-link {
   font-weight: 500;
-font-size: 16px;
-line-height: 1.25;
-text-decoration-line: underline;
-color: var(--accent-color);
-
+  font-size: 16px;
+  line-height: 1.25;
+  text-decoration-line: underline;
+  color: var(--accent-color);
 }
 
-.about-wrap{
+.about-wrap {
   display: flex;
   justify-content: space-between;
 }
 
-.about-list{
+.about-list {
   display: flex;
   justify-content: space-between;
-}
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,49 @@
+.header {
+    background-color: rgba(128, 128, 128, 0.29);
+    width: 100%;
+    padding: 40px;
+    position: fixed;
+  }
+  
+  .site-nav-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  
+  .site-nav-link {
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .site-nav-item:not(:last-child) {
+    /* margin-right: 39px; */
+  }
+  
+  .site-nav-link:hover,
+  .site-nav-link:focus {
+    opacity: 0.7;
+  }
+  
+  .site-nav-list {
+    display: flex;
+    justify-content: end;
+  }
+  
+  .current {
+    position: relative;
+  }
+  
+  .current::after {
+    content: '';
+    height: 2px;
+    width: 100%;
+    background-color: #ffffff;
+    /* border: 2px solid #FFFFFF; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }

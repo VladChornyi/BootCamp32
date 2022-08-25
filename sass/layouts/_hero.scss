@@ -1,0 +1,35 @@
+.hero {
+    height: 100vh;
+    padding-top: 319px;
+    padding-bottom: 335px;
+    background-image: url('../image/main-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .services {
+    padding-top: 110px;
+    padding-bottom: 105px;
+  }
+  
+  .hero .container {
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .hero-description {
+    font-weight: 800;
+    font-size: 48px;
+    text-align: center;
+    color: #ffffff;
+    max-width: 890px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
